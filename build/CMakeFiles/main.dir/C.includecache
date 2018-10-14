@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/david/UW/CSE 455/cse455_hw1/src/args.h
+
+/home/david/UW/CSE 455/cse455_hw1/src/image.h
+
+/home/david/UW/CSE 455/cse455_hw1/src/main.c
+math.h
+-
+string.h
+-
+image.h
+/home/david/UW/CSE 455/cse455_hw1/src/image.h
+test.h
+/home/david/UW/CSE 455/cse455_hw1/src/test.h
+args.h
+/home/david/UW/CSE 455/cse455_hw1/src/args.h
+
+/home/david/UW/CSE 455/cse455_hw1/src/test.c
+stdlib.h
+-
+math.h
+-
+string.h
+-
+assert.h
+-
+image.h
+/home/david/UW/CSE 455/cse455_hw1/src/image.h
+test.h
+/home/david/UW/CSE 455/cse455_hw1/src/test.h
+args.h
+/home/david/UW/CSE 455/cse455_hw1/src/args.h
+
+/home/david/UW/CSE 455/cse455_hw1/src/test.h
+stdio.h
+-
+

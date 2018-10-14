@@ -385,12 +385,14 @@ void test_sobel(){
     free_image(theta);
     free_image(gt_mag);
     free_image(gt_theta);
-    free(res);
-    
-    
+    free(res);  
 }
 
-
+void test_bilateral_filter(){
+    image im = load_image("data/cliffs.png");
+    image res = bilateral_filter(im);
+    save_image(res, "output/bilateral");
+}
 
 int do_test()
 {
@@ -421,6 +423,7 @@ void run_tests()
     test_hybrid_image();
     test_frequency_image();
     test_sobel();
+    test_bilateral_filter();
     printf("%d tests, %d passed, %d failed\n", tests_total, tests_total-tests_fail, tests_fail);
 }
 

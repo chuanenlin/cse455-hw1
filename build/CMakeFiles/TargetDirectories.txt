@@ -1,0 +1,4 @@
+/home/david/UW/CSE 455/cse455_hw1/build/CMakeFiles/rebuild_cache.dir
+/home/david/UW/CSE 455/cse455_hw1/build/CMakeFiles/uwimg.dir
+/home/david/UW/CSE 455/cse455_hw1/build/CMakeFiles/edit_cache.dir
+/home/david/UW/CSE 455/cse455_hw1/build/CMakeFiles/main.dir
